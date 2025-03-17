@@ -119,9 +119,8 @@ async function argument(baseurl, basedir) {
   }
 
   if (/-h|--help/.test(baseurl)) {
-    console.log(`
-${color('Usage:', 1)}
-  ${color('gitdown', 33)} ${color('<url> <path>?', 36)}
+    console.log(`${color('Usage:', 1)}
+  ${color('ghdown', 33)}  ${color('<url> <path>?', 36)}
   ${color('<url>', 36)}   GitHub repository URL: ${color('<https://github.com/>?user/repo/<tree|blob>/branch/path/<folder|file>', 36)}
           Use folder path: ${color('user/repo/<folder>', 36)}                     Default branch: ${color('main', 95)}
   ${color('<path>?', 36)} Local directory path or filename: ${color('new-dir|new-filename', 36)}  Default path: ${color('cwd+urlPath', 95)}

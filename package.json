@@ -1,17 +1,17 @@
 {
-  "name": "gitdown-cli",
-  "version": "2.1.2",
+  "name": "ghdown",
+  "version": "1.0.0",
   "description": "A CLI tool to download GitHub repository files or folders",
-  "main": "gitdown.js",
+  "main": "ghdown.js",
   "type": "module",
   "bin": {
-    "gitdown": "gitdown.js"
+    "ghdown": "ghdown.js"
   },
   "scripts": {
-    "start": "node gitdown.js"
+    "start": "node ghdown.js"
   },
   "keywords": [
-    "gitdown",
+    "ghdown",
     "download",
     "repository",
     "directory",
@@ -22,10 +22,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jabed-web-dev/gitdown-cli.git"
+    "url": "git+https://github.com/jabed-web-dev/ghdown.git"
   },
   "bugs": {
-    "url": "https://github.com/jabed-web-dev/gitdown-cli/issues"
+    "url": "https://github.com/jabed-web-dev/ghdown/issues"
   },
-  "homepage": "https://github.com/jabed-web-dev/gitdown-cli#readme"
+  "homepage": "https://github.com/jabed-web-dev/ghdown#readme"
 }
